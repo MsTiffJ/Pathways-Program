@@ -81,8 +81,20 @@ namespace HelloWorld
                 else if (userChoiceString == "S" || userChoiceString == "s")
                 {
                     Console.WriteLine("In the S/s area");
-                }
+                
 
+                using (StreamWriter fileStr = File.CreateText(fileName))
+                {
+                    for (int i=0; i < nameArray.Length; i++)
+                     {
+
+                        fileStr.WriteLine(nameArray[i]);
+
+                     } 
+                    
+                    Console.WriteLine("Your document has been saved as names.txt. ");
+                }
+                }
                 //  TODO: Else if the option is a C or c then add a name to the array (if there's room)
 
                 else if (userChoiceString == "C" || userChoiceString == "c")
