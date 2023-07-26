@@ -99,7 +99,7 @@ namespace HelloWorld
                         {
                             if (found == false)
                             {
-                                Console.WriteLine("Index " + index + " is available.");
+                                Console.WriteLine("Index " + index + " is available now.");
                                 Console.WriteLine("Please enter a name ");
                                 string name = Console.ReadLine();
                                 nameArray[index] = name;
