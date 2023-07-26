@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\methods\bin\Debug\net7.0\methods.exe
+C:\Users\E6146648\Desktop\Pathways Program\methods\bin\Debug\net7.0\methods.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\methods\bin\Debug\net7.0\methods.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\methods\bin\Debug\net7.0\methods.dll
+C:\Users\E6146648\Desktop\Pathways Program\methods\bin\Debug\net7.0\methods.pdb
+C:\Users\E6146648\Desktop\Pathways Program\methods\obj\Debug\net7.0\methods.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\methods\obj\Debug\net7.0\methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\methods\obj\Debug\net7.0\methods.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\methods\obj\Debug\net7.0\methods.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\methods\obj\Debug\net7.0\methods.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\methods\obj\Debug\net7.0\methods.dll
+C:\Users\E6146648\Desktop\Pathways Program\methods\obj\Debug\net7.0\refint\methods.dll
+C:\Users\E6146648\Desktop\Pathways Program\methods\obj\Debug\net7.0\methods.pdb
+C:\Users\E6146648\Desktop\Pathways Program\methods\obj\Debug\net7.0\methods.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\methods\obj\Debug\net7.0\ref\methods.dll

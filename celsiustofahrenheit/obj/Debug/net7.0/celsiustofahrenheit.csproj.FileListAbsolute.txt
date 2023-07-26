@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\bin\Debug\net7.0\celsiustofahrenheit.exe
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\bin\Debug\net7.0\celsiustofahrenheit.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\bin\Debug\net7.0\celsiustofahrenheit.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\bin\Debug\net7.0\celsiustofahrenheit.dll
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\bin\Debug\net7.0\celsiustofahrenheit.pdb
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\obj\Debug\net7.0\celsiustofahrenheit.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\obj\Debug\net7.0\celsiustofahrenheit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\obj\Debug\net7.0\celsiustofahrenheit.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\obj\Debug\net7.0\celsiustofahrenheit.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\obj\Debug\net7.0\celsiustofahrenheit.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\obj\Debug\net7.0\celsiustofahrenheit.dll
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\obj\Debug\net7.0\refint\celsiustofahrenheit.dll
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\obj\Debug\net7.0\celsiustofahrenheit.pdb
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\obj\Debug\net7.0\celsiustofahrenheit.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\celsiustofahrenheit\obj\Debug\net7.0\ref\celsiustofahrenheit.dll

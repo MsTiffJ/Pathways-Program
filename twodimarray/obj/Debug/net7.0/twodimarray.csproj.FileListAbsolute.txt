@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\obj\Debug\net7.0\twodimarray.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\obj\Debug\net7.0\twodimarray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\obj\Debug\net7.0\twodimarray.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\obj\Debug\net7.0\twodimarray.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\obj\Debug\net7.0\twodimarray.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\bin\Debug\net7.0\twodimarray.exe
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\bin\Debug\net7.0\twodimarray.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\bin\Debug\net7.0\twodimarray.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\bin\Debug\net7.0\twodimarray.dll
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\bin\Debug\net7.0\twodimarray.pdb
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\obj\Debug\net7.0\twodimarray.dll
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\obj\Debug\net7.0\refint\twodimarray.dll
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\obj\Debug\net7.0\twodimarray.pdb
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\obj\Debug\net7.0\twodimarray.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\twodimarray\obj\Debug\net7.0\ref\twodimarray.dll

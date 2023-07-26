@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\obj\Debug\net7.0\singledimarray.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\obj\Debug\net7.0\singledimarray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\obj\Debug\net7.0\singledimarray.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\obj\Debug\net7.0\singledimarray.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\obj\Debug\net7.0\singledimarray.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\bin\Debug\net7.0\singledimarray.exe
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\bin\Debug\net7.0\singledimarray.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\bin\Debug\net7.0\singledimarray.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\bin\Debug\net7.0\singledimarray.dll
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\bin\Debug\net7.0\singledimarray.pdb
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\obj\Debug\net7.0\singledimarray.dll
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\obj\Debug\net7.0\refint\singledimarray.dll
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\obj\Debug\net7.0\singledimarray.pdb
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\obj\Debug\net7.0\singledimarray.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\singledimarray\obj\Debug\net7.0\ref\singledimarray.dll

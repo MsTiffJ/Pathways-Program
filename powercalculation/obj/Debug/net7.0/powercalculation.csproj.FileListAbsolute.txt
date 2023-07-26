@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\bin\Debug\net7.0\powercalculation.exe
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\bin\Debug\net7.0\powercalculation.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\bin\Debug\net7.0\powercalculation.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\bin\Debug\net7.0\powercalculation.dll
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\bin\Debug\net7.0\powercalculation.pdb
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\obj\Debug\net7.0\powercalculation.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\obj\Debug\net7.0\powercalculation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\obj\Debug\net7.0\powercalculation.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\obj\Debug\net7.0\powercalculation.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\obj\Debug\net7.0\powercalculation.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\obj\Debug\net7.0\powercalculation.dll
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\obj\Debug\net7.0\refint\powercalculation.dll
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\obj\Debug\net7.0\powercalculation.pdb
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\obj\Debug\net7.0\powercalculation.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\powercalculation\obj\Debug\net7.0\ref\powercalculation.dll

@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\obj\Debug\net7.0\celstofahrenmethod.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\obj\Debug\net7.0\celstofahrenmethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\obj\Debug\net7.0\celstofahrenmethod.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\obj\Debug\net7.0\celstofahrenmethod.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\obj\Debug\net7.0\celstofahrenmethod.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\bin\Debug\net7.0\celstofahrenmethod.exe
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\bin\Debug\net7.0\celstofahrenmethod.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\bin\Debug\net7.0\celstofahrenmethod.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\bin\Debug\net7.0\celstofahrenmethod.dll
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\bin\Debug\net7.0\celstofahrenmethod.pdb
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\obj\Debug\net7.0\celstofahrenmethod.dll
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\obj\Debug\net7.0\refint\celstofahrenmethod.dll
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\obj\Debug\net7.0\celstofahrenmethod.pdb
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\obj\Debug\net7.0\celstofahrenmethod.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\celstofahrenmethod\obj\Debug\net7.0\ref\celstofahrenmethod.dll

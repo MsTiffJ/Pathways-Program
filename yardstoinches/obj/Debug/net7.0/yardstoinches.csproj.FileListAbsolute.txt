@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\bin\Debug\net7.0\yardstoinches.exe
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\bin\Debug\net7.0\yardstoinches.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\bin\Debug\net7.0\yardstoinches.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\bin\Debug\net7.0\yardstoinches.dll
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\bin\Debug\net7.0\yardstoinches.pdb
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\obj\Debug\net7.0\yardstoinches.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\obj\Debug\net7.0\yardstoinches.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\obj\Debug\net7.0\yardstoinches.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\obj\Debug\net7.0\yardstoinches.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\obj\Debug\net7.0\yardstoinches.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\obj\Debug\net7.0\yardstoinches.dll
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\obj\Debug\net7.0\refint\yardstoinches.dll
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\obj\Debug\net7.0\yardstoinches.pdb
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\obj\Debug\net7.0\yardstoinches.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\yardstoinches\obj\Debug\net7.0\ref\yardstoinches.dll

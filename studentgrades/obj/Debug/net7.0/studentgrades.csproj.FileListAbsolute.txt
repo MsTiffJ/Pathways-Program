@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\obj\Debug\net7.0\studentgrades.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\obj\Debug\net7.0\studentgrades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\obj\Debug\net7.0\studentgrades.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\obj\Debug\net7.0\studentgrades.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\obj\Debug\net7.0\studentgrades.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\bin\Debug\net7.0\studentgrades.exe
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\bin\Debug\net7.0\studentgrades.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\bin\Debug\net7.0\studentgrades.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\bin\Debug\net7.0\studentgrades.dll
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\bin\Debug\net7.0\studentgrades.pdb
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\obj\Debug\net7.0\studentgrades.dll
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\obj\Debug\net7.0\refint\studentgrades.dll
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\obj\Debug\net7.0\studentgrades.pdb
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\obj\Debug\net7.0\studentgrades.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\studentgrades\obj\Debug\net7.0\ref\studentgrades.dll

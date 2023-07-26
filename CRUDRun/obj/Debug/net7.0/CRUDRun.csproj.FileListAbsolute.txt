@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\bin\Debug\net7.0\CRUDRun.exe
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\bin\Debug\net7.0\CRUDRun.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\bin\Debug\net7.0\CRUDRun.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\bin\Debug\net7.0\CRUDRun.dll
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\bin\Debug\net7.0\CRUDRun.pdb
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\obj\Debug\net7.0\CRUDRun.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\obj\Debug\net7.0\CRUDRun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\obj\Debug\net7.0\CRUDRun.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\obj\Debug\net7.0\CRUDRun.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\obj\Debug\net7.0\CRUDRun.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\obj\Debug\net7.0\CRUDRun.dll
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\obj\Debug\net7.0\refint\CRUDRun.dll
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\obj\Debug\net7.0\CRUDRun.pdb
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\obj\Debug\net7.0\CRUDRun.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRun\obj\Debug\net7.0\ref\CRUDRun.dll

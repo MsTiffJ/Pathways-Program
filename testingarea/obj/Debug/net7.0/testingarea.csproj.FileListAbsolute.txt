@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\bin\Debug\net7.0\testingarea.exe
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\bin\Debug\net7.0\testingarea.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\bin\Debug\net7.0\testingarea.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\bin\Debug\net7.0\testingarea.dll
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\bin\Debug\net7.0\testingarea.pdb
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\obj\Debug\net7.0\testingarea.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\obj\Debug\net7.0\testingarea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\obj\Debug\net7.0\testingarea.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\obj\Debug\net7.0\testingarea.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\obj\Debug\net7.0\testingarea.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\obj\Debug\net7.0\testingarea.dll
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\obj\Debug\net7.0\refint\testingarea.dll
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\obj\Debug\net7.0\testingarea.pdb
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\obj\Debug\net7.0\testingarea.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\testingarea\obj\Debug\net7.0\ref\testingarea.dll
