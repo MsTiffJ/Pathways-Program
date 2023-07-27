@@ -107,91 +107,103 @@ namespace CRUDRunChallenge
                 }
 
                 //  TODO: Else if the option is an S or s then store the array of strings into the text file
-/* //Full Comment Start 
-                                                else if (userOptionString == "S" || userOptionString == "s")
-                                                {
-                                                    Console.WriteLine("In the S/s area");
+                /* //Full Comment Start 
+                                                                else if (userOptionString == "S" || userOptionString == "s")
+                                                                {
+                                                                    Console.WriteLine("In the S/s area");
 
 
-                                                    using (StreamWriter fileStr = File.CreateText(fileName))
-                                                    {
-                                                        for (int i = 0; i < nameArray.Length; i++)
-                                                        {
+                                                                    using (StreamWriter fileStr = File.CreateText(fileName))
+                                                                    {
+                                                                        for (int i = 0; i < nameArray.Length; i++)
+                                                                        {
 
-                                                            fileStr.WriteLine(nameArray[i]);
+                                                                            fileStr.WriteLine(nameArray[i]);
 
-                                                        }
+                                                                        }
 
-                                                        Console.WriteLine("Your document has been saved in your restaurant file. ");
-                                                    }
-                                                }
-*/ //Full Comment End
+                                                                        Console.WriteLine("Your document has been saved in your restaurant file. ");
+                                                                    }
+                                                                }
+                */ //Full Comment End
                    //  TODO: Else if the option is a C or c then add a name to the array (if there's room)
 
-                                else if (userOptionString == "C" || userOptionString == "c")
+                else if (userOptionString == "C" || userOptionString == "c")
+                {
+                    Console.WriteLine("Add a Restaurant name and rating:");
+                    bool found = false;
+                    int counter = 0;
+                    for (int row = 0; row < nameArray.GetLength(0); row++)
+                    {
+                        for (int column = 0; column < nameArray.GetLength(1); column++)
+                        {
+                            if ((nameArray[row, column]) != "")
+                            {
+                                Console.WriteLine(nameArray[row, column]);
+                            }
+                            else
+                            {
+                                if (found == false)
                                 {
-                                    Console.WriteLine("Add a Restaurant name and rating:");
-                                    bool found = false;
-                                    for (int row = 0; row < nameArray.GetLength(0); row++)
+                                    Console.WriteLine("There is room to enter a new Restaurant and Rating.");
+                                    Console.WriteLine("Please enter a restaurant name");
+                                    string? restaurantName = Console.ReadLine();
+                                    Console.WriteLine("Please enter the restaurant's rating ");
+                                    string? restaurantRating = Console.ReadLine();
+
+                                    int addRow = 0;
+                                    addRow = counter / 2;
+                                    int addColumn = 0;
+                                    if (counter % 2 == 1)
                                     {
-                                        for (int column = 0; column < nameArray.GetLength(1); column++)
-                                        {
-                                            if ((nameArray[row, column]) != "")
-                                            {
-                                                Console.WriteLine(nameArray[row, column]);
-                                            }
-                                           else
-                                        {
-                                            if (found == false)
-                                            {
-                                                Console.WriteLine(row);
-                                                Console.WriteLine(column);
-                                                /*
-                                                Console.WriteLine("There is room to enter a new Restaurant and Rating.");
-                                                Console.WriteLine("Please enter a restaurant name");
-                                                string? restaurantName = Console.ReadLine();
-                                                Console.WriteLine("Please enter the restaurant's rating ");
-                                                string? restaurantRating = Console.ReadLine();
-                                                //nameArray[arrayRow, arrayColumn] = restaurantName;
-                                                found = true;
-                                                */
-
-                                            }
-                                        }
-
-
-                                        }
+                                        addColumn = 1;
                                     }
-                                    /*
-                                    bool found = false;                                
-                                    for (int index = 0; index < nameArray.GetLength(0); index++)        //the lines of text
-                                    {
-                                        if ((nameArray[arrayRow, arrayColumn]) != "")               //if row and column are empty
-                                        {
-                                            Console.WriteLine(nameArray[arrayRow, arrayColumn]);   //output the line
-                                        }
-                                        else
-                                        {
-                                            if (found == false)
-                                            {
-                                                Console.WriteLine("Index is available.");
-                                                Console.WriteLine("Please enter a restaurant ");
-                                                string? name = Console.ReadLine();
-                                                nameArray[arrayRow, arrayColumn] = name;
-                                                found = true;
-                                            }
-                                        }
+                                    addRow += row;
+                                    if (addColumn == 0)
+                                    { nameArray[addRow, addColumn] = restaurantName; }
 
-                                    }
-                                    if (found == false)
-                                    {
-                                        Console.WriteLine("There is no room for any more restaurants. ");
-                                    }
-                                    */
+                                    else if (addColumn == 1)
+                                    { nameArray[addRow, addColumn] = restaurantRating; }
+                                    counter += 1;
+                                    found = true;
                                 }
-                                //  TODO: Else if the option is an R or r then print the array
+                            }
 
- //Full Comment Start 
+
+                        }
+                    }
+                    if (found == false)
+                    { Console.WriteLine("There is no room for any more rating entries. "); }
+                    /*
+                    bool found = false;                                
+                    for (int index = 0; index < nameArray.GetLength(0); index++)        //the lines of text
+                    {
+                        if ((nameArray[arrayRow, arrayColumn]) != "")               //if row and column are empty
+                        {
+                            Console.WriteLine(nameArray[arrayRow, arrayColumn]);   //output the line
+                        }
+                        else
+                        {
+                            if (found == false)
+                            {
+                                Console.WriteLine("Index is available.");
+                                Console.WriteLine("Please enter a restaurant ");
+                                string? name = Console.ReadLine();
+                                nameArray[arrayRow, arrayColumn] = name;
+                                found = true;
+                            }
+                        }
+
+                    }
+                    if (found == false)
+                    {
+                        Console.WriteLine("There is no room for any more restaurants. ");
+                    }
+                    */
+                }
+                //  TODO: Else if the option is an R or r then print the array
+
+                //Full Comment Start 
                 else if (userOptionString == "R" || userOptionString == "r")
                 {
                     Console.WriteLine("Here is the list of the Restaurants and their ratings:");
@@ -212,75 +224,75 @@ namespace CRUDRunChallenge
                     }
                     //Console.WriteLine ("");
                 }
- //Full Comment End
+                //Full Comment End
                 //  TODO: Else if the option is a U or u then update a name in the array (if it's there)
-/* //Full Comment Start 
-                                    else if (userOptionString == "U" || userOptionString == "u")
-                                    {
-                                        Console.WriteLine("In the U/u area");
-                                        string? changeChoice;
-                                                  Console.WriteLine("Change restaurant name and/or rating");
-                                        Console.WriteLine("What would you like to change? Press N for name or R for rating");
-                                        bool found = false;
-                                        Console.WriteLine("Enter a name to update");
-                                        var nameUpdate = Console.ReadLine();
-                                        string nameInArray;
-                                        //string? updateName;
-                                        for (int index = 0; index < arraySize; index++)
-                                        {
-                                            if (found == false)
-                                            {
-                                                nameInArray = nameArray[index];
+                /* //Full Comment Start 
+                                                    else if (userOptionString == "U" || userOptionString == "u")
+                                                    {
+                                                        Console.WriteLine("In the U/u area");
+                                                        string? changeChoice;
+                                                                  Console.WriteLine("Change restaurant name and/or rating");
+                                                        Console.WriteLine("What would you like to change? Press N for name or R for rating");
+                                                        bool found = false;
+                                                        Console.WriteLine("Enter a name to update");
+                                                        var nameUpdate = Console.ReadLine();
+                                                        string nameInArray;
+                                                        //string? updateName;
+                                                        for (int index = 0; index < arraySize; index++)
+                                                        {
+                                                            if (found == false)
+                                                            {
+                                                                nameInArray = nameArray[index];
 
-                                                if (nameUpdate == nameInArray)
-                                                {
-                                                    Console.WriteLine("Enter new name");
-                                                    string? updateName = Console.ReadLine();
-                                                    nameArray[index] = updateName;
-                                                    Console.WriteLine("Name updated");
-                                                    found = true;
-                                                }
+                                                                if (nameUpdate == nameInArray)
+                                                                {
+                                                                    Console.WriteLine("Enter new name");
+                                                                    string? updateName = Console.ReadLine();
+                                                                    nameArray[index] = updateName;
+                                                                    Console.WriteLine("Name updated");
+                                                                    found = true;
+                                                                }
 
-                                            }
+                                                            }
 
-                                        }
+                                                        }
 
-                                        if (found == false)
-                                        { Console.WriteLine("Name NOT found"); }
-                                    }
-*/ //Full Comment End
+                                                        if (found == false)
+                                                        { Console.WriteLine("Name NOT found"); }
+                                                    }
+                */ //Full Comment End
                    //  TODO: Else if the option is a D or d then delete the name in the array (if it's there)
-/* //Full Comment Start 
-                                    else if (userOptionString == "D" || userOptionString == "d")
-                                    {
-                                        bool found = false;
-                                        Console.WriteLine("In the D/d area");
-                                        Console.WriteLine("Enter a name to delete");
-                                        string? nameDelete = Console.ReadLine();
-                                        string nameInArray;
-                                        for (int index = 0; index < arraySize; index++)
-                                        {
-                                            if (found == false)
-                                            {
-                                                nameInArray = nameArray[index];
+                /* //Full Comment Start 
+                                                    else if (userOptionString == "D" || userOptionString == "d")
+                                                    {
+                                                        bool found = false;
+                                                        Console.WriteLine("In the D/d area");
+                                                        Console.WriteLine("Enter a name to delete");
+                                                        string? nameDelete = Console.ReadLine();
+                                                        string nameInArray;
+                                                        for (int index = 0; index < arraySize; index++)
+                                                        {
+                                                            if (found == false)
+                                                            {
+                                                                nameInArray = nameArray[index];
 
-                                                if (nameDelete == nameInArray)
-                                                {
-                                                    Console.WriteLine("Name found");
-                                                    nameArray[index] = "";
-                                                    Console.WriteLine("Name deleted");
-                                                    found = true;
-                                                }
+                                                                if (nameDelete == nameInArray)
+                                                                {
+                                                                    Console.WriteLine("Name found");
+                                                                    nameArray[index] = "";
+                                                                    Console.WriteLine("Name deleted");
+                                                                    found = true;
+                                                                }
 
-                                            }
+                                                            }
 
-                                        }
+                                                        }
 
-                                        if (found == false)
-                                        { Console.WriteLine("Name NOT found"); }
-                                    }
-                                    //  TODO: Else if the option is a Q or q then quit the program
-*/ //Full Comment End
+                                                        if (found == false)
+                                                        { Console.WriteLine("Name NOT found"); }
+                                                    }
+                                                    //  TODO: Else if the option is a Q or q then quit the program
+                */ //Full Comment End
                 else
                 {
                     Console.WriteLine("Good-bye!");
