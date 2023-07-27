@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\obj\Debug\net7.0\CRUDRunChallenge.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\obj\Debug\net7.0\CRUDRunChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\obj\Debug\net7.0\CRUDRunChallenge.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\obj\Debug\net7.0\CRUDRunChallenge.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\obj\Debug\net7.0\CRUDRunChallenge.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\bin\Debug\net7.0\CRUDRunChallenge.exe
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\bin\Debug\net7.0\CRUDRunChallenge.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\bin\Debug\net7.0\CRUDRunChallenge.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\bin\Debug\net7.0\CRUDRunChallenge.dll
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\bin\Debug\net7.0\CRUDRunChallenge.pdb
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\obj\Debug\net7.0\CRUDRunChallenge.dll
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\obj\Debug\net7.0\refint\CRUDRunChallenge.dll
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\obj\Debug\net7.0\CRUDRunChallenge.pdb
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\obj\Debug\net7.0\CRUDRunChallenge.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\CRUDRunChallenge\obj\Debug\net7.0\ref\CRUDRunChallenge.dll
