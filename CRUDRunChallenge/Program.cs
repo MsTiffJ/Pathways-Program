@@ -127,10 +127,43 @@ namespace CRUDRunChallenge
                                                 }
 */ //Full Comment End
                    //  TODO: Else if the option is a C or c then add a name to the array (if there's room)
-/* //Full Comment Start 
+
                                 else if (userOptionString == "C" || userOptionString == "c")
                                 {
+                                    Console.WriteLine("Add a Restaurant name and rating:");
                                     bool found = false;
+                                    for (int row = 0; row < nameArray.GetLength(0); row++)
+                                    {
+                                        for (int column = 0; column < nameArray.GetLength(1); column++)
+                                        {
+                                            if ((nameArray[row, column]) != "")
+                                            {
+                                                Console.WriteLine(nameArray[row, column]);
+                                            }
+                                           else
+                                        {
+                                            if (found == false)
+                                            {
+                                                Console.WriteLine(row);
+                                                Console.WriteLine(column);
+                                                /*
+                                                Console.WriteLine("There is room to enter a new Restaurant and Rating.");
+                                                Console.WriteLine("Please enter a restaurant name");
+                                                string? restaurantName = Console.ReadLine();
+                                                Console.WriteLine("Please enter the restaurant's rating ");
+                                                string? restaurantRating = Console.ReadLine();
+                                                //nameArray[arrayRow, arrayColumn] = restaurantName;
+                                                found = true;
+                                                */
+
+                                            }
+                                        }
+
+
+                                        }
+                                    }
+                                    /*
+                                    bool found = false;                                
                                     for (int index = 0; index < nameArray.GetLength(0); index++)        //the lines of text
                                     {
                                         if ((nameArray[arrayRow, arrayColumn]) != "")               //if row and column are empty
@@ -154,9 +187,11 @@ namespace CRUDRunChallenge
                                     {
                                         Console.WriteLine("There is no room for any more restaurants. ");
                                     }
+                                    */
                                 }
                                 //  TODO: Else if the option is an R or r then print the array
-*/ //Full Comment End
+
+ //Full Comment Start 
                 else if (userOptionString == "R" || userOptionString == "r")
                 {
                     Console.WriteLine("Here is the list of the Restaurants and their ratings:");
@@ -177,7 +212,7 @@ namespace CRUDRunChallenge
                     }
                     //Console.WriteLine ("");
                 }
-
+ //Full Comment End
                 //  TODO: Else if the option is a U or u then update a name in the array (if it's there)
 /* //Full Comment Start 
                                     else if (userOptionString == "U" || userOptionString == "u")
