@@ -134,63 +134,63 @@ namespace CRUDRunChallenge
                     bool found = false;
                     int counter = 0;
                     int newRestaurantEntered = 0;
-                    for (int row = 0; row < nameArray.GetLength(0); row++)
+                    for (int row = 0; row < nameArray.GetLength(0); row++)          //As long as the row length is less than the array length increment
                     {
-                        for (int column = 0; column < nameArray.GetLength(1); column++)
+                        for (int column = 0; column < nameArray.GetLength(1); column++) //As long as the column length is less than the array length increment
                         {
                             //Console.WriteLine(row);
                             //Console.WriteLine(column);
-                            if ((nameArray[row, column]) != "")
+                            if ((nameArray[row, column]) != "")                     //If the array position is not empty
                             {
-                              //  Console.WriteLine(nameArray[row, column]);
+                              //  Console.WriteLine(nameArray[row, column]);        //Do nothing
                             }
-                            else
+                            else                                                    //Otherwise we need to do this
                             {
-                                if (found == false)
+                                if (found == false)                                 //If there is an empty space
                                 {
-                                    counter += column;
+                                    counter += column;                              //Go through and find a space
                                     Console.WriteLine("There is room to enter a new Restaurant and/or Rating.");                                   
-                                    int addRow = 0;
-                                    addRow = counter / 2;
-                                    int addColumn = 0;
-                                    if (counter % 2 == 1)
+                                    int addRow = 0;                                 //Set Variable to 0
+                                    addRow = counter / 2;                           //Determine if row is even or odd
+                                    int addColumn = 0;                              //Set Variable to 0
+                                    if (counter % 2 == 1)                           //If counter has a remainder 
                                     {
-                                        addColumn = 1;
+                                        addColumn = 1;                              //Then column is odd
                                     }
-                                    addRow += row;
+                                    addRow += row;                                  //Set the row position addRow =0 and then add the row position from the array
                                      //Console.WriteLine(addRow);
                                      //Console.WriteLine(addColumn);
                                      //Console.WriteLine("Counter is " + counter);
-                                    if (addColumn == 0)
+                                    if (addColumn == 0)                             //If the column is an even number then add a restaurant name
                                     { 
                                         Console.WriteLine("Please enter a restaurant name");
-                                        string? restaurantName = Console.ReadLine();    
+                                        string? restaurantName = Console.ReadLine();                    //Entering in new restaurant
                                         nameArray[addRow, addColumn] = restaurantName;
                                         Console.WriteLine("Restaurant " + restaurantName + " has been entered.");
                                         newRestaurantEntered += 1;                                    
                                     }
 
-                                    if (newRestaurantEntered == 1)
+                                    if (newRestaurantEntered == 1)                          //If new restaurant is entered
                                     { 
-                                        string? currentRestaurant = nameArray[addRow, newRestaurantEntered-1];
-                                        Console.WriteLine("Please enter the rating for " + currentRestaurant + ".");
-                                        string? restaurantRating = Console.ReadLine();
-                                        nameArray[addRow, newRestaurantEntered] = restaurantRating;
-                                        Console.WriteLine("Rating for " + currentRestaurant + " has been entered.");
+                                        string? currentRestaurant = nameArray[addRow, newRestaurantEntered-1];      //Find restaurant name that was just entered
+                                        Console.WriteLine("Please enter the rating for " + currentRestaurant + "."); //Ask for Rating
+                                        string? restaurantRating = Console.ReadLine();                              //Store rating entered in restaurantRating
+                                        nameArray[addRow, newRestaurantEntered] = restaurantRating;                 //Find restaurant enteres and enter rating
+                                        Console.WriteLine("Rating for " + currentRestaurant + " has been entered.");  //Current Rating was entered
                                     }
 
-                                    if (addColumn == 1 && newRestaurantEntered == 0)
+                                    if (addColumn == 1 && newRestaurantEntered == 0)                            //If there is a restaurant with no rating then ask
                                     { 
-                                        string? currentRestaurant = nameArray[addRow, addColumn-1];
-                                        Console.WriteLine("Please enter the rating for " + currentRestaurant + ".");
-                                        string? restaurantRating = Console.ReadLine();
-                                        nameArray[addRow, addColumn] = restaurantRating;
-                                        Console.WriteLine("Rating for " + currentRestaurant + " has been entered.");
+                                        string? currentRestaurant = nameArray[addRow, addColumn-1];             //Find the position of the missing rating
+                                        Console.WriteLine("Please enter the rating for " + currentRestaurant + "."); //Ask for Rating
+                                        string? restaurantRating = Console.ReadLine();                          //Store rating entered in restaurantRating
+                                        nameArray[addRow, addColumn] = restaurantRating;                        //Enter rating into empty space
+                                        Console.WriteLine("Rating for " + currentRestaurant + " has been entered."); //Current Rating Entered
                                     }
 
-                                    counter += 1;
+                                    counter += 1;                                                  //Keep looping until all spaces are filled             
                                     //Console.WriteLine("Counter is " + counter);                
-                                    found = true;
+                                    found = true;                                                   //If all spaces are filled then loop stops
                                     
                                 }
                             }
