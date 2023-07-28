@@ -133,24 +133,23 @@ namespace CRUDRunChallenge
                     Console.WriteLine("Add a Restaurant name and rating:");
                     bool found = false;
                     int counter = 0;
+                    int newRestaurantEntered = 0;
                     for (int row = 0; row < nameArray.GetLength(0); row++)
                     {
                         for (int column = 0; column < nameArray.GetLength(1); column++)
                         {
+                            //Console.WriteLine(row);
+                            //Console.WriteLine(column);
                             if ((nameArray[row, column]) != "")
                             {
-                                Console.WriteLine(nameArray[row, column]);
+                              //  Console.WriteLine(nameArray[row, column]);
                             }
                             else
                             {
                                 if (found == false)
                                 {
-                                    Console.WriteLine("There is room to enter a new Restaurant and Rating.");
-                                    Console.WriteLine("Please enter a restaurant name");
-                                    string? restaurantName = Console.ReadLine();
-                                    Console.WriteLine("Please enter the restaurant's rating ");
-                                    string? restaurantRating = Console.ReadLine();
-
+                                    counter += column;
+                                    Console.WriteLine("There is room to enter a new Restaurant and/or Rating.");                                   
                                     int addRow = 0;
                                     addRow = counter / 2;
                                     int addColumn = 0;
@@ -159,16 +158,42 @@ namespace CRUDRunChallenge
                                         addColumn = 1;
                                     }
                                     addRow += row;
+                                     //Console.WriteLine(addRow);
+                                     //Console.WriteLine(addColumn);
+                                     //Console.WriteLine("Counter is " + counter);
                                     if (addColumn == 0)
-                                    { nameArray[addRow, addColumn] = restaurantName; }
+                                    { 
+                                        Console.WriteLine("Please enter a restaurant name");
+                                        string? restaurantName = Console.ReadLine();    
+                                        nameArray[addRow, addColumn] = restaurantName;
+                                        Console.WriteLine("Restaurant " + restaurantName + " has been entered.");
+                                        newRestaurantEntered += 1;                                    
+                                    }
 
-                                    else if (addColumn == 1)
-                                    { nameArray[addRow, addColumn] = restaurantRating; }
+                                    if (newRestaurantEntered == 1)
+                                    { 
+                                        string? currentRestaurant = nameArray[addRow, newRestaurantEntered-1];
+                                        Console.WriteLine("Please enter the rating for " + currentRestaurant + ".");
+                                        string? restaurantRating = Console.ReadLine();
+                                        nameArray[addRow, newRestaurantEntered] = restaurantRating;
+                                        Console.WriteLine("Rating for " + currentRestaurant + " has been entered.");
+                                    }
+
+                                    if (addColumn == 1 && newRestaurantEntered == 0)
+                                    { 
+                                        string? currentRestaurant = nameArray[addRow, addColumn-1];
+                                        Console.WriteLine("Please enter the rating for " + currentRestaurant + ".");
+                                        string? restaurantRating = Console.ReadLine();
+                                        nameArray[addRow, addColumn] = restaurantRating;
+                                        Console.WriteLine("Rating for " + currentRestaurant + " has been entered.");
+                                    }
+
                                     counter += 1;
+                                    //Console.WriteLine("Counter is " + counter);                
                                     found = true;
+                                    
                                 }
                             }
-
 
                         }
                     }
