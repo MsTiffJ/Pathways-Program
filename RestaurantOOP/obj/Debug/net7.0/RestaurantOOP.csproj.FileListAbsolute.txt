@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\obj\Debug\net7.0\RestaurantOOP.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\obj\Debug\net7.0\RestaurantOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\obj\Debug\net7.0\RestaurantOOP.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\obj\Debug\net7.0\RestaurantOOP.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\obj\Debug\net7.0\RestaurantOOP.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\bin\Debug\net7.0\RestaurantOOP.exe
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\bin\Debug\net7.0\RestaurantOOP.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\bin\Debug\net7.0\RestaurantOOP.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\bin\Debug\net7.0\RestaurantOOP.dll
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\bin\Debug\net7.0\RestaurantOOP.pdb
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\obj\Debug\net7.0\RestaurantOOP.dll
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\obj\Debug\net7.0\refint\RestaurantOOP.dll
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\obj\Debug\net7.0\RestaurantOOP.pdb
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\obj\Debug\net7.0\RestaurantOOP.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantOOP\obj\Debug\net7.0\ref\RestaurantOOP.dll

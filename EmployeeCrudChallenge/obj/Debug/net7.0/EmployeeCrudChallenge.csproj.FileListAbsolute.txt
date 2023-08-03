@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\obj\Debug\net7.0\EmployeeCrudChallenge.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\obj\Debug\net7.0\EmployeeCrudChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\obj\Debug\net7.0\EmployeeCrudChallenge.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\obj\Debug\net7.0\EmployeeCrudChallenge.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\obj\Debug\net7.0\EmployeeCrudChallenge.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\bin\Debug\net7.0\EmployeeCrudChallenge.exe
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\bin\Debug\net7.0\EmployeeCrudChallenge.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\bin\Debug\net7.0\EmployeeCrudChallenge.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\bin\Debug\net7.0\EmployeeCrudChallenge.dll
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\bin\Debug\net7.0\EmployeeCrudChallenge.pdb
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\obj\Debug\net7.0\EmployeeCrudChallenge.dll
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\obj\Debug\net7.0\refint\EmployeeCrudChallenge.dll
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\obj\Debug\net7.0\EmployeeCrudChallenge.pdb
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\obj\Debug\net7.0\EmployeeCrudChallenge.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudChallenge\obj\Debug\net7.0\ref\EmployeeCrudChallenge.dll

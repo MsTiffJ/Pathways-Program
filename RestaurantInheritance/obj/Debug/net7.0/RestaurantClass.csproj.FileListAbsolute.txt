@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\obj\Debug\net7.0\RestaurantClass.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\obj\Debug\net7.0\RestaurantClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\obj\Debug\net7.0\RestaurantClass.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\obj\Debug\net7.0\RestaurantClass.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\obj\Debug\net7.0\RestaurantClass.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\bin\Debug\net7.0\RestaurantClass.exe
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\bin\Debug\net7.0\RestaurantClass.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\bin\Debug\net7.0\RestaurantClass.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\bin\Debug\net7.0\RestaurantClass.dll
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\bin\Debug\net7.0\RestaurantClass.pdb
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\obj\Debug\net7.0\RestaurantClass.dll
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\obj\Debug\net7.0\refint\RestaurantClass.dll
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\obj\Debug\net7.0\RestaurantClass.pdb
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\obj\Debug\net7.0\RestaurantClass.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\RestaurantInheritance\obj\Debug\net7.0\ref\RestaurantClass.dll
