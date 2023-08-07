@@ -6,36 +6,40 @@ namespace  EmployeeCrudChallenge                             //Namespace for all
     {
 //Variables
 
-    public string RLastName                                 //Property for last name
+    public string ELastName                                 //Property for last name
     { get; set;}
 
-    public string RFirstName                                //Property for first name
+    public string EFirstName                                //Property for first name
     { get; set;}
 
-    public char REmployeeType                               //Property for Employee Type
+    public char EEmployeeType                               //Property for Employee Type
     { get; set;}
 
 //Constructors
 
     public Employee()                                       //Same as class name DEFAULT
     {
-        RLastName = "Doe";
-        RFirstName = "John";
-        REmployeeType = 'e';
+        ELastName = null;
+        EFirstName = null;
+        EEmployeeType = ' ';
     }
 
     public Employee( string newLastName, string newFirstName, char newEmployeeType )    //Same as class PASSING A VALUE
     {
-        RLastName = newLastName;
-        RFirstName = newFirstName;
-        REmployeeType = newEmployeeType;
+        ELastName = newLastName;
+        EFirstName = newFirstName;
+        EEmployeeType = newEmployeeType;
     }
 
+    public virtual double Bonus()
+    {
+        return 0;
+    }
         //To-String
 
         public override string ToString()
         {
-            return "Last Name: " + RLastName + " \nFirst Name: " + RFirstName + " \nEmployee Type: " + REmployeeType;
+            return "Last Name: " + ELastName + " \nFirst Name: " + EFirstName + " \nEmployee Type: " + EEmployeeType + " \nBonus: " + Bonus(); 
         }
     }// End of Class
 }//End of namespace

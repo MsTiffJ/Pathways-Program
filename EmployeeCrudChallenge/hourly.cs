@@ -7,26 +7,29 @@ namespace  EmployeeCrudChallenge                             //Namespace for all
 
 //Variables
 
-    public double RHourlyRate                                   //Property for Hourly Employee
+    public double EHourlyRate                                   //Property for Hourly Employee
     { get; set;}
 
 //Constructor
 
 public Hourly () : base ()                                     //Same as class name DEFAULT
     {
-       RHourlyRate =  0;
+       EHourlyRate =  0;
     }
 
 public Hourly (string newLastName, string newFirstName, char newEmployeeType, double newHourlyRate) : base(newLastName,newFirstName,newEmployeeType) //Same as class PASSING A VALUE
     {
-        RHourlyRate = newHourlyRate;
+        EHourlyRate = newHourlyRate;
     }
-
+public override double Bonus()
+    {
+        return EHourlyRate * 40;
+    }
         // To-String
 
         public override string ToString()
         {
-            return base.ToString() + " \nHourly Rate :" + RHourlyRate;
+            return base.ToString() + " \nHourly Rate :" + EHourlyRate;
         }
 
     }// End of Class

@@ -6,26 +6,29 @@ namespace  EmployeeCrudChallenge                             //Namespace for all
     {
 //Variables
 
-    public int RSalaryRate                                   //Property for Salary Employee
+    public int ESalaryRate                                   //Property for Salary Employee
     { get; set;}
 
 //Constructor
 
 public Salary () : base ()                                     //Same as class name DEFAULT
     {
-       RSalaryRate =  0;
+       ESalaryRate =  0;
     }
 
 public Salary (string newLastName, string newFirstName, char newEmployeeType, int newSalaryRate) : base(newLastName,newFirstName,newEmployeeType) //Same as class PASSING A VALUE
     {
-        RSalaryRate = newSalaryRate;
+        ESalaryRate = newSalaryRate;
     }
-
+public override double Bonus()
+    {
+        return ESalaryRate * .1;
+    }
 // To-String
 
         public override string ToString()
         {
-            return base.ToString() + " \nSalary Rate :" + RSalaryRate;
+            return base.ToString() + " \nSalary Rate :" + ESalaryRate;
         }     
         
 
