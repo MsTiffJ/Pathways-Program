@@ -169,8 +169,8 @@ namespace EmployeeCrudChallenge                             //Namespace for all 
                             
                                
                       found = true;
-                        }
-                    }
+                        } //End of if statement
+                    }  // End of for loop
                     Console.WriteLine();
                     if (found == false)
                     { Console.WriteLine("Employee list is full. "); }

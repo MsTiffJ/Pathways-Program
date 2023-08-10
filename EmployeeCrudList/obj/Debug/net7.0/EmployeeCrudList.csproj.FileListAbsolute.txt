@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\obj\Debug\net7.0\EmployeeCrudList.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\obj\Debug\net7.0\EmployeeCrudList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\obj\Debug\net7.0\EmployeeCrudList.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\obj\Debug\net7.0\EmployeeCrudList.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\obj\Debug\net7.0\EmployeeCrudList.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\bin\Debug\net7.0\EmployeeCrudList.exe
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\bin\Debug\net7.0\EmployeeCrudList.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\bin\Debug\net7.0\EmployeeCrudList.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\bin\Debug\net7.0\EmployeeCrudList.dll
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\bin\Debug\net7.0\EmployeeCrudList.pdb
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\obj\Debug\net7.0\EmployeeCrudList.dll
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\obj\Debug\net7.0\refint\EmployeeCrudList.dll
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\obj\Debug\net7.0\EmployeeCrudList.pdb
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\obj\Debug\net7.0\EmployeeCrudList.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\EmployeeCrudList\obj\Debug\net7.0\ref\EmployeeCrudList.dll
