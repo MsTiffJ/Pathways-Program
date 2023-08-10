@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\obj\Debug\net7.0\BankingAcctChallenge.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\obj\Debug\net7.0\BankingAcctChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\obj\Debug\net7.0\BankingAcctChallenge.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\obj\Debug\net7.0\BankingAcctChallenge.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\obj\Debug\net7.0\BankingAcctChallenge.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\bin\Debug\net7.0\BankingAcctChallenge.exe
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\bin\Debug\net7.0\BankingAcctChallenge.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\bin\Debug\net7.0\BankingAcctChallenge.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\bin\Debug\net7.0\BankingAcctChallenge.dll
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\bin\Debug\net7.0\BankingAcctChallenge.pdb
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\obj\Debug\net7.0\BankingAcctChallenge.dll
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\obj\Debug\net7.0\refint\BankingAcctChallenge.dll
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\obj\Debug\net7.0\BankingAcctChallenge.pdb
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\obj\Debug\net7.0\BankingAcctChallenge.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\BankingAcctChallenge\obj\Debug\net7.0\ref\BankingAcctChallenge.dll

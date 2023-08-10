@@ -38,7 +38,7 @@ namespace FoodInterfaceCRUD                              //Namespace for all fil
         public string GetCuisine()  //interface method
         {
             return restCuisine;
-        }
+        } 
         public FastFood(string newRestaurant, bool newDriveThru, string newCuisine) : base(newRestaurant)  //Passing something through
         {
             RDriveThru = newDriveThru;
