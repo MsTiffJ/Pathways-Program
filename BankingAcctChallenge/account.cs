@@ -6,7 +6,7 @@ namespace BankAccountChallenge
     {
        //Variable ===============================================================
 
-        //public double depositAmount = 0;      //variable for deposits
+       public double withdrawalAmount = 0;
 
       //Properties ===============================================================
       public int accountID              //property for account identification
@@ -47,6 +47,7 @@ namespace BankAccountChallenge
         
        
      }
+     public abstract double Withdrawal();
      
 
     // To-String ============================================================================
