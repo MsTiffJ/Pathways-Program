@@ -159,7 +159,7 @@ namespace CRUDRunChallenge
                                     {
                                         Console.WriteLine("Please enter a restaurant name");
                                         string? restaurantName = Console.ReadLine();                    //Entering in new restaurant
-                                        nameArray[addRow, addColumn] = restaurantName;
+                                        nameArray[addRow, addColumn] = restaurantName!;
                                         Console.WriteLine("Restaurant " + restaurantName + " has been entered.");
                                         newRestaurantEntered += 1;
                                     }
@@ -169,7 +169,7 @@ namespace CRUDRunChallenge
                                         string? currentRestaurant = nameArray[addRow, newRestaurantEntered - 1];      //Find restaurant name that was just entered
                                         Console.WriteLine("Please enter the rating for " + currentRestaurant + "."); //Ask for Rating
                                         string? restaurantRating = Console.ReadLine();                              //Store rating entered in restaurantRating
-                                        nameArray[addRow, newRestaurantEntered] = restaurantRating;                 //Find restaurant enteres and enter rating
+                                        nameArray[addRow, newRestaurantEntered] = restaurantRating!;                 //Find restaurant enteres and enter rating
                                         Console.WriteLine("Rating for " + currentRestaurant + " has been entered.");  //Current Rating was entered
                                     }
 
@@ -178,7 +178,7 @@ namespace CRUDRunChallenge
                                         string? currentRestaurant = nameArray[addRow, addColumn - 1];             //Find the position of the missing rating
                                         Console.WriteLine("Please enter the rating for " + currentRestaurant + "."); //Ask for Rating
                                         string? restaurantRating = Console.ReadLine();                          //Store rating entered in restaurantRating
-                                        nameArray[addRow, addColumn] = restaurantRating;                        //Enter rating into empty space
+                                        nameArray[addRow, addColumn] = restaurantRating!;                        //Enter rating into empty space
                                         Console.WriteLine("Rating for " + currentRestaurant + " has been entered."); //Current Rating Entered
                                     }
 
@@ -247,7 +247,7 @@ namespace CRUDRunChallenge
                                     {
                                         Console.WriteLine("Please enter new restaurant name");     //Ask for new name
                                         changeRestaurantChoice = Console.ReadLine();              //Store new name
-                                        nameArray[row, column] = changeRestaurantChoice;          //Put new name in array
+                                        nameArray[row, column] = changeRestaurantChoice!;          //Put new name in array
                                         Console.WriteLine("Restaurant name has been updated");   //advised new name has been updated
                                         found = true;
                                     }
@@ -275,7 +275,7 @@ namespace CRUDRunChallenge
                                     {
                                         Console.WriteLine("Please enter new rating for " + restaurantName);     //Ask for new rating
                                         changeRatingChoice = Console.ReadLine();              //Store new rating
-                                        nameArray[row, column + 1] = changeRatingChoice;          //Put new rating in array
+                                        nameArray[row, column + 1] = changeRatingChoice!;          //Put new rating in array
                                         Console.WriteLine("Restaurant rating has been updated for " + restaurantName);   //advised new rating has been updated
                                         found = true;
                                     }
@@ -302,7 +302,7 @@ namespace CRUDRunChallenge
                     if (nameDelete == "N" || nameDelete == "n")        //Store name delete choice
                     {
                         Console.WriteLine("What restaurant name would you like to delete?"); //Asking for name to delete
-                        string restaurantName = Console.ReadLine();    //Store name choice
+                        string restaurantName = Console.ReadLine()!;    //Store name choice
                         for (int row = 0; row < nameArray.GetLength(0); row++)          //As long as the row length is less than the array length increment
                         {
                             for (int column = 0; column < nameArray.GetLength(1); column++) //As long as the column length is less than the array length increment
@@ -329,7 +329,7 @@ namespace CRUDRunChallenge
                     if (nameDelete == "R" || nameDelete == "r")        //Store rating delete choice
                     {
                         Console.WriteLine("What restaurant name would you like to delete the rating for?"); //Asking for name of restaurant to delete rating
-                        string restaurantName = Console.ReadLine();    //Store name choice
+                        string restaurantName = Console.ReadLine()!;    //Store name choice
                         for (int row = 0; row < nameArray.GetLength(0); row++)          //As long as the row length is less than the array length increment
                         {
                             for (int column = 0; column < nameArray.GetLength(1); column++) //As long as the column length is less than the array length increment

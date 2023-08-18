@@ -108,7 +108,7 @@ namespace FoodInterfaceCRUD                             //Namespace
             found = false;
             for (int index = 0; index <restaurantList.Count; index++) //looks through restaurant list
             {
-                if((restaurantList[index].RName == findRestaurantName)) //find the restaurant name
+                if(restaurantList[index].RName == findRestaurantName) //find the restaurant name
                 {
                     restaurantList.RemoveAt(index); //remove from the list
                     found = true;

@@ -129,23 +129,23 @@ namespace EmployeeCrudChallenge                             //Namespace for all 
                         if (((employeeArray[index].ELastName) == null) && (found==false))
                         {
                             Console.WriteLine("Please enter the employee type.");                           //Request the employee type
-                            TempType = Convert.ToChar(Console.ReadLine());        //Get the employee type
+                            TempType = Convert.ToChar(Console.ReadLine()!);        //Get the employee type
     
                             Console.WriteLine(index);
                             Console.WriteLine("Please enter the first name of Employee.");                  //Request the employee's first name
                               if(TempType == 'H'||TempType == 'h')
-                                    TempHourly.EFirstName=Console.ReadLine();
+                                    TempHourly.EFirstName=Console.ReadLine()!;
 
                                 else
-                                    TempSalary.EFirstName =Console.ReadLine();                           //Get the employee's first name
+                                    TempSalary.EFirstName =Console.ReadLine()!;                           //Get the employee's first name
                             
 
                             Console.WriteLine("Please enter the last name of the Employee.");               //Request the employee's last name
                               if(TempType == 'H'||TempType == 'h')
-                                    TempHourly.ELastName=Console.ReadLine();
+                                    TempHourly.ELastName=Console.ReadLine()!;
 
                                 else
-                                    TempSalary.ELastName =Console.ReadLine();
+                                    TempSalary.ELastName =Console.ReadLine()!;
 
                               if(TempType == 'H'||TempType == 'h')
                                     TempHourly.EEmployeeType=TempType;
@@ -222,14 +222,14 @@ namespace EmployeeCrudChallenge                             //Namespace for all 
                             {
                               Console.WriteLine("Please enter the new first name of Employee.");
                               newFirstName = Console.ReadLine();
-                              employeeArray[index].EFirstName = newFirstName;
+                              employeeArray[index].EFirstName = newFirstName!;
                               Console.WriteLine("The first name of the employee has been updated.");  
                             }
                             else
                             {
                               Console.WriteLine("Please enter the new last name of Employee.");
                               newLastName = Console.ReadLine();
-                              employeeArray[index].ELastName = newLastName;
+                              employeeArray[index].ELastName = newLastName!;
                               Console.WriteLine("The last name of the employee has been updated.");  
                             }
 

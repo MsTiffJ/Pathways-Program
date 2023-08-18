@@ -1,0 +1,15 @@
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\bin\Debug\net7.0\warehouseclubchallenge.exe
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\bin\Debug\net7.0\warehouseclubchallenge.deps.json
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\bin\Debug\net7.0\warehouseclubchallenge.runtimeconfig.json
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\bin\Debug\net7.0\warehouseclubchallenge.dll
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\bin\Debug\net7.0\warehouseclubchallenge.pdb
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\obj\Debug\net7.0\warehouseclubchallenge.csproj.AssemblyReference.cache
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\obj\Debug\net7.0\warehouseclubchallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\obj\Debug\net7.0\warehouseclubchallenge.AssemblyInfoInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\obj\Debug\net7.0\warehouseclubchallenge.AssemblyInfo.cs
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\obj\Debug\net7.0\warehouseclubchallenge.csproj.CoreCompileInputs.cache
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\obj\Debug\net7.0\warehouseclubchallenge.dll
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\obj\Debug\net7.0\refint\warehouseclubchallenge.dll
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\obj\Debug\net7.0\warehouseclubchallenge.pdb
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\obj\Debug\net7.0\warehouseclubchallenge.genruntimeconfig.cache
+C:\Users\E6146648\Desktop\Pathways Program\warehouseclubchallenge\obj\Debug\net7.0\ref\warehouseclubchallenge.dll

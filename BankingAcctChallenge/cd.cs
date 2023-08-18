@@ -24,7 +24,7 @@ namespace BankAccountChallenge
         //    newAnnualAmountEarned = cDIntRate*accountBalance;
             
        // }
-        public double getAnnualAmountEarned()     //interface method
+        public double GetAnnualAmountEarned()     //interface method
         {
             return cDIntRate*accountBalance;;
         }
@@ -50,7 +50,7 @@ namespace BankAccountChallenge
         // To-String ============================================================================
         public override string ToString()
         {
-            return base.ToString() + " || CD Interest Rate Percentage: " + (cDIntRate*100) + "%" + " || Annual Income Earned $: " + getAnnualAmountEarned();
+            return base.ToString() + " || CD Interest Rate Percentage: " + (cDIntRate*100) + "%" + " || Annual Income Earned $: " + GetAnnualAmountEarned();
         }
     } //End of Class
 
