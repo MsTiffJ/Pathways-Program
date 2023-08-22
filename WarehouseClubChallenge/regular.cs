@@ -2,7 +2,7 @@ using System;
 
 namespace ClubMembership
 {
-    class Regular : MembershipClub
+    class Regular : MembershipClub, ISpecialOffer
     {
 
         //Variable =============================================================================

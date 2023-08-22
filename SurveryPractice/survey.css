@@ -1,0 +1,13 @@
+body {
+    background-color: bisque;
+}
+
+p {
+    color: navy;
+    margin-left: 40px;
+}
+
+h1 {
+    color:blueviolet;
+    margin-right: 30px;
+}

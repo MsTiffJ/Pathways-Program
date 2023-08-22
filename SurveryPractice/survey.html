@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en"> <!--setting the language-->
+
+<head> <!--Begin of head-->
+    <title>Survey: What animal do you prefer?</title>
+
+    <link rel="stylesheet" href="survey.css"> <!--linking the css file -->
+
+<script src = "survey.js"></script> <!--End of script-->  
+
+</head> <!--End of head-->
+
+
+<body> <!--Begin of body-->
+    <div class="container">
+        <header class="header">
+          <h1 id="title" class="text-center">Survey: What animal do you prefer?</h1> <!--Title of survey-->
+          <p id="description" class="description text-center">
+            Thank you for taking the time to give your feedback!
+          </p>
+        </header>
+        <form id="survey-form" onsubmit="myMethod()">
+            <div class="form-group"></div>
+            <label id="name-label" for="name">Name</label>     
+
+        <input 
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+        /> <!--End of input-->
+        </div> <!--End of div-->
+
+        <div class="form-group">
+            <p>Which animal do you prefer the most?</p>
+            <select id="dropdown" required>
+                <option disabled selected value>Select pet</option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Bird">Bird</option>
+                <option value="Snake">Snake</option>
+                <option value="Frog">Frog</option>
+                <option value="Horse">Horse</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>Why is this pet your preferred pet? Please select one</p>
+            <label>
+                <input
+                name="reason"
+                value="most affectionate"
+                type="radio"
+                class="input-radio"
+                checked
+                />Most Affectionate
+            </label>
+
+            <label>
+                <input
+                name="reason"
+                value="most attentive"
+                type="radio"
+                class="input-radio"
+                checked
+                />Most Attentive
+            </label>
+
+            <label>
+                <input
+                name="reason"
+                value="self sufficient"
+                type="radio"
+                class="input-radio"
+                checked
+                />Self Sufficient
+            </label>
+
+            <label>
+                <input
+                name="reason"
+                value="interesting characteristics"
+                type="radio"
+                class="input-radio"
+                checked
+                />Interesting characteristics
+            </label>
+
+            <label>
+                <input
+                name="reason"
+                value="intriguing behavior"
+                type="radio"
+                class="input-radio"
+                checked
+                />Intriguing Behavior
+            </label>
+
+        </div>
+        <div class="form-group">
+            <p>
+               What color do you prefer your pet to be?
+               <span class="color">(Check all that apply)</span> 
+            </p> 
+
+            <label>
+                <input
+                name="color"
+                value="black"
+                type="checkbox"
+                class="input-checkbox"
+                checked
+                />Black
+            </label>
+
+            <label>
+                <input
+                name="color"
+                value="white"
+                type="checkbox"
+                class="input-checkbox"
+                />White
+            </label>
+
+            <label>
+                <input
+                name="color"
+                value="brown"
+                type="checkbox"
+                class="input-checkbox"
+                />Brown
+            </label>
+
+            <label>
+                <input
+                name="color"
+                value="grey"
+                type="checkbox"
+                class="input-checkbox"
+                />Grey
+            </label>
+
+            <label>
+                <input
+                name="color"
+                value="red"
+                type="checkbox"
+                class="input-checkbox"
+                />Red
+            </label>
+
+            <label>
+                <input
+                name="color"
+                value="Orange"
+                type="checkbox"
+                class="input-checkbox"
+                />Orange
+            </label>
+
+            <label>
+                <input
+                name="color"
+                value="green"
+                type="checkbox"
+                class="input-checkbox"
+                />Green
+            </label>
+
+            <label>
+                <input
+                name="color"
+                value="flourescent"
+                type="checkbox"
+                class="input-checkbox"
+                />Flourescent
+            </label>
+
+            <label>
+                <input
+                name="color"
+                value="tan"
+                type="checkbox"
+                class="input-checkbox"
+                />Tan
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>Would you recommend this pet to a friend?</p>
+            <label>
+                <input
+                name="recommendation"
+                value="most definitely"
+                type="radio"
+                class="input-radio"
+                checked
+                />Most Definitely
+            </label>
+
+            <label>
+                <input
+                name="recommendation"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                />Definitely
+            </label>
+
+            <label>
+                <input
+                name="recommendation"
+                value="maybe"
+                type="radio"
+                class="input-radio"
+                />Maybe
+            </label>
+
+            <label>
+                <input
+                name="recommendation"
+                value="most likely"
+                type="radio"
+                class="input-radio"
+                />Most Likely
+            </label>
+
+            <label>
+                <input
+                name="recommendation"
+                value="likely"
+                type="radio"
+                class="input-radio"
+                />Likely
+            </label>
+
+            <label>
+                <input
+                name="recommendation"
+                value="not sure"
+                type="radio"
+                class="input-radio"
+                />Not Sure
+            </label>
+
+            <label>
+                <input
+                name="recommendation"
+                value="no way"
+                type="radio"
+                class="input-radio"
+                />No Way
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>In your opinion, which other animal should be on this list? If not applicable enter "none."</p>
+            <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your opinion here"
+            required
+            ></textarea>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+            Submit
+        </button>
+
+        </div>
+         
+        </form> <!--End of form-->
+
+</body> <!--End of body-->
+
+
+
+
+
+
+
+
+
+
+
+</html> <!--End of html-->
