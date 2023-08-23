@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Builder Practice</title>
+
+    <link rel="stylesheet" href="listbuild.css">
+    <script src="listbuild.js"></script>
+</head>    
+<body>
+    <h1>List Builder Practice Program</h1>
+    <div class="myflexDisplayRow">
+        <div class="myflexDisplayColumn">
+            <h3>Let's Build a List!</h3> <!--Building the row and first column-->
+
+            <form name="myInputBoxes"> <!--Building the entry boxes-->
+                List Name Entry: <input type="text" name="newWord" value="">
+                <br />
+                <br />
+                Number Entry(1 or 2): <input type="number" name="newNumber" value="">
+                <br />
+                <br /> <!--Building the submit button-->
+                <input type="button" value="Enter Information" onclick="verifyThenInsert()">
+            </form>
+        </div>
+        <!--Build the First Column for List One-->
+
+        <div class="myflexDisplayColumn">
+            <h2>List One</h2>
+            <table id="myListOne"></table>
+            <br />
+            <input type="button" value="Clear One" onclick="clearOne()">
+        </div>
+
+        <!--Build the First Column for List Two-->
+
+        <div class="myflexDisplayColumn">
+            <h2>List Two</h2>
+            <table id="myListTwo"></table>
+            <br />
+            <input type="button" value="Clear Two" onclick="clearTwo()">
+        </div>
+
+    </div> <!--End of DisplayRow-->
+ 
+</body><!--end of body-->
+</html> <!--end of html-->

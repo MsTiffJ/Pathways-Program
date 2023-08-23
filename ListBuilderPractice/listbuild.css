@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    border-color: blueviolet;
+  }
+
+  h1 {
+    color:rgb(63, 13, 241);
+    margin-right: 30px;
+    }
+    h2 {
+        color:rgb(241, 13, 13);
+        margin-right: 20px;
+        }
+    h3 {
+        color:rgb(202, 16, 171);
+        margin-right: 50px;
+    } 
+
+/*Flex Display boxes */
+
+.myflexDisplayRow
+    {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+/*Creating three equal entry boxes */
+
+.myflexDisplayColumn
+    {
+        flex: 33%;
+        padding: 10px;
+    }
+
+/*Media query for screens resizing down */
+
+@media screen and (max-width: 600px)
+    {
+        .myflexDisplayRow
+        {
+            flex-direction: column;
+        }
+    }
+    
