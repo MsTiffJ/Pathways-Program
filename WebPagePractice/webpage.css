@@ -1,0 +1,49 @@
+body {
+    background-color: thistle;
+
+}
+
+p {
+    color: red;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+}
+
+h1 {
+    color:rgb(87, 5, 5);
+    margin-right: 30px;
+}
+
+{
+    box-sizing: border-box;
+    font-family:Cambria;
+}
+
+/*Separator class*/
+.separator{
+    background-color:blue;
+    flex: 100%;
+    height: 10px;
+
+}
+/*Container for top bar*/
+.top-bar { text-align: center} {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fcfafb02;
+    text-align: center;
+  }
+
+}
+/*Container for content area left*/
+.content-area {
+    display: flex;
+    flex: 25%;
+    background-color: #fcfafb02;
+    
+  }
+  .content-area-item{
+    flex: 25%
+    text-align: center;
+  }

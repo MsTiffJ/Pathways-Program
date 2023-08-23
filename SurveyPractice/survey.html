@@ -2,7 +2,7 @@
 <html lang="en"> <!--setting the language-->
 
 <head> <!--Begin of head-->
-    <title>Survey: What animal do you prefer?</title>
+    <title>Survey: Animal Preference</title>
 
     <link rel="stylesheet" href="survey.css"> <!--linking the css file -->
 
@@ -14,16 +14,16 @@
 <body> <!--Begin of body-->
     <div class="container">
         <header class="header">
-          <h1 id="title" class="text-center">Survey: What animal do you prefer?</h1> <!--Title of survey-->
+          <h1 id="title" class="text-center">Survey: Animal Preference</h1> <!--Title of survey-->
           <p id="description" class="description text-center">
             Thank you for taking the time to give your feedback!
           </p>
         </header>
-        <form id="survey-form" onsubmit="myMethod()">
+        <form id="survey-form" onsubmit="myMethod()"> <!--Calling Method from .js file-->
             <div class="form-group"></div>
             <label id="name-label" for="name">Name</label>     
-
-        <input 
+<!--Getting a name-->
+        <input                                  
             type="text"
             name="name"
             id="name"
@@ -32,7 +32,7 @@
             required
         /> <!--End of input-->
         </div> <!--End of div-->
-
+<!--Dropdown options-->
         <div class="form-group">
             <p>Which animal do you prefer the most?</p>
             <select id="dropdown" required>
@@ -46,7 +46,7 @@
                 <option value="Other">Other</option>
             </select>
         </div>
-
+<!--Radio Options-->
         <div class="form-group">
             <p>Why is this pet your preferred pet? Please select one</p>
             <label>
@@ -58,7 +58,7 @@
                 checked
                 />Most Affectionate
             </label>
-
+            <br />
             <label>
                 <input
                 name="reason"
@@ -68,7 +68,7 @@
                 checked
                 />Most Attentive
             </label>
-
+            <br />
             <label>
                 <input
                 name="reason"
@@ -78,7 +78,7 @@
                 checked
                 />Self Sufficient
             </label>
-
+            <br />
             <label>
                 <input
                 name="reason"
@@ -88,7 +88,7 @@
                 checked
                 />Interesting characteristics
             </label>
-
+            <br />
             <label>
                 <input
                 name="reason"
@@ -98,7 +98,7 @@
                 checked
                 />Intriguing Behavior
             </label>
-
+<!--Checkbox options-->
         </div>
         <div class="form-group">
             <p>
@@ -115,7 +115,7 @@
                 checked
                 />Black
             </label>
-
+            <br />
             <label>
                 <input
                 name="color"
@@ -124,7 +124,7 @@
                 class="input-checkbox"
                 />White
             </label>
-
+            <br />
             <label>
                 <input
                 name="color"
@@ -133,7 +133,7 @@
                 class="input-checkbox"
                 />Brown
             </label>
-
+            <br />
             <label>
                 <input
                 name="color"
@@ -142,7 +142,7 @@
                 class="input-checkbox"
                 />Grey
             </label>
-
+            <br />
             <label>
                 <input
                 name="color"
@@ -151,7 +151,7 @@
                 class="input-checkbox"
                 />Red
             </label>
-
+            <br />
             <label>
                 <input
                 name="color"
@@ -160,7 +160,7 @@
                 class="input-checkbox"
                 />Orange
             </label>
-
+            <br />
             <label>
                 <input
                 name="color"
@@ -169,7 +169,7 @@
                 class="input-checkbox"
                 />Green
             </label>
-
+            <br />
             <label>
                 <input
                 name="color"
@@ -178,7 +178,7 @@
                 class="input-checkbox"
                 />Flourescent
             </label>
-
+            <br />
             <label>
                 <input
                 name="color"
@@ -188,7 +188,7 @@
                 />Tan
             </label>
         </div>
-
+<!--Radio Option-->
         <div class="form-group">
             <p>Would you recommend this pet to a friend?</p>
             <label>
@@ -255,7 +255,7 @@
                 />No Way
             </label>
         </div>
-
+<!--Comment box-->
         <div class="form-group">
             <p>In your opinion, which other animal should be on this list? If not applicable enter "none."</p>
             <textarea
