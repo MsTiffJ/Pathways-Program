@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    border-color: rgb(8, 166, 240);
+  }
+
+  h1 {
+    color:rgb(106, 131, 14);
+    margin-right: 30px;
+    }
+    h2 {
+        color:rgb(20, 43, 119);
+        margin-right: 20px;
+        }
+    h3 {
+        color:rgb(233, 22, 7);
+        margin-right: 50px;
+    }
+    h4 {
+        color:rgb(243, 27, 11);
+        margin-right: 50px;
+    } 
+    
+
+    
+
+
+/*Flex Display boxes */
+
+.myflexDisplayRow
+    {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+/*Creating three equal entry boxes */
+
+.myflexDisplayColumn
+    {
+        flex: 33%;
+        padding: 10px;
+    }
+
+/*Media query for screens resizing down */
+
+@media screen and (max-width: 600px)
+    {
+        .myflexDisplayRow
+        {
+            flex-direction: column;
+        }
+    }

@@ -1,9 +1,6 @@
-function verifyThenInsert()
-/* Method to verify and insert entries */ 
-{
-    let brandNewWord = document.forms["myInputBoxes"]["newWord"].value;
-    let brandNewNumber = document.forms["myInputBoxes"]["newNumber"].value;
-
+function verifyThenInsert() {
+    var brandNewWord = document.forms["myInputBoxes"]["newWord"].value;
+    var brandNewNumber = document.forms["myInputBoxes"]["newNumber"].value;
     /*Verify */
     if (brandNewWord == "") /*Alert to tell the user to enter valid information */ {
         alert("Please enter a word for validation");
@@ -16,25 +13,24 @@ function verifyThenInsert()
     }
     else {
         if (brandNewNumber == 1) {
-            let tableRef = document.getElementById("myListOne");
+            var tableRef = document.getElementById("myListOne");
             (tableRef.insertRow(tableRef.rows.length)).innerHTML = brandNewWord;
         }
         else {
-            let tableRef = document.getElementById("myListTwo");
+            var tableRef = document.getElementById("myListTwo");
             (tableRef.insertRow(tableRef.rows.length)).innerHTML = brandNewWord;
         }
-
         document.forms["myInputBoxes"]["newWord"].value = "";
         document.forms["myInputBoxes"]["newNumber"].value = "";
         return true;
     }
 }
-    /* Method to clear List One */
-    function clearOne() {
-        let tableRef = document.getElementById("myListOne");
-        tableRef.innerHTML = " ";
-    }
-    function clearTwo() {
-        let tableRef = document.getElementById("myListTwo");
-        tableRef.innerHTML = " ";
-    }
+/* Method to clear List One */
+function clearOne() {
+    var tableRef = document.getElementById("myListOne");
+    tableRef.innerHTML = " ";
+}
+function clearTwo() {
+    var tableRef = document.getElementById("myListTwo");
+    tableRef.innerHTML = " ";
+}
