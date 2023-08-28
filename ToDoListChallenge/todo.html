@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List Challenge</title>
+
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js"></script> <!--End of script-->
+
+</head> <!--End of head-->
+
+<body>
+    <div class="container">
+        <p> <img src="Images/notebook.jpg" alt="Notebook" style="width:100%"></p>
+        <div class="content">
+            <h1>We got a LOT to-do!</h1> <!--Heading at top of the page-->
+
+            <div class="myflexChoreRow"> <!--Row for task operations-->
+                <div class="myflexChoreColumn"> <!--Column for task operations-->
+                    <h6>What do you have to do?</h6> <!--Building the row and first column-->
+                    <form name="myChoreBox">
+                        Add a Task:
+                        <br /><br />
+                        <input type="text" name="newChore" id="chore" class="form-control"
+                            placeholder="Enter a Task" required> <!--Box to input Task-->
+                        <br /><br />
+                        <input type="date" name="newDueDate" id="dueDate" class="form-group"
+                            placeholder="Enter Due Date(MM/DD)" required> <!--Box for date input with calendar-->
+                        <br /><br />
+                        <input type="button" value="Add a Task" onclick="enterToDo()"> <!--Add a task button-->
+                        <br /><br />
+                        <input type="button" value="Update a Task" onclick="updateTask()"> <!--Update a task button-->
+                        <br /><br />                   
+                        <input type="button" value="Remove a Task" onclick="clearTask()"> <!--Remove a task button-->                     
+                        <br /><br />
+                        <input type="button" value="Clear Task List" onclick="clearTaskList()"> <!--Clear task list button-->
+                        <br /><br />
+                        <input type="button" value="Complete Task" onclick="completeTask()"> <!--Complete a task button-->
+                    </form> <!--End of Form-->
+                </div> <!--div class content end-->
+
+                <div class="myflexChoreColumn"> <!--Column for Task Listings-->
+                    <h6>Task List</h6> <!--Header for task listings-->
+                    <table id="myTaskList"></table>
+                    
+                </div> <!--End of div class-->
+
+                <div class="myflexChoreColumn"> <!--Place holder column for correct spacing-->
+                    
+                </div> <!--End of div class-->
+
+                <div class="myflexChoreColumn"> <!--Place holder column for correct spacing-->
+                    
+                </div> <!--End of div class-->
+
+            </div> <!--div class container end-->
+</body> <!--End of body-->
+
+</html> <!--End of html-->
