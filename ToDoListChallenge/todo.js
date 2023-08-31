@@ -15,7 +15,7 @@ function enterToDo() {
     else {
         tableRef = document.getElementById("myTaskList"); /* Getting the ID of the table storing the value in the variable  */
         var insertTask = (tableRef.rows.length + 1) + ". " + brandNewChore.concat(" - ", brandNewDate); /*Creating the task string storing it in a variable */
-        (tableRef.insertRow(tableRef.rows.length)).innerHTML = insertTask; /*Addind the task string to the table */
+        (tableRef.insertRow(tableRef.rows.length)).innerHTML = insertTask; /*Adding the task string to the table */
     }
     document.forms["myChoreBox"]["newChore"].value = ""; /* Clear the chore box after adding a task */
     document.forms["myChoreBox"]["newDueDate"].value = ""; /* Clear the date box after adding a task */

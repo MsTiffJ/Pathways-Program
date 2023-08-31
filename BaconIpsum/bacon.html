@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bacon Sample</title>
+
+    <link rel="stylesheet" href="bacon.css">
+    <script src="bacon.js"></script> <!--End of script-->
+
+</head> <!--End of head-->
+
+<body>
+    <div class="container">
+        <!--<p> <img src="Images/notebook.jpg" alt="Notebook" style="width:100%"></p>-->
+        <div class="content">
+            <h1>Meat Sheet</h1> <!--Heading at top of the page-->
+
+
+            <div class="myflexMeatRow"> <!--Row for task operations-->
+                <div class="myflexMeatColumn"> <!--Column for task operations-->
+                    <h6>Obtain user information. <br /><br />Note: In order to display paragraphs, select 'No Sentences'<br />
+                    from the 'How many sentences' Drop-down.</h6> <!--Building the row and first column-->
+                    <form name="myMeatBox">
+                        <label for="newType">All meat or meat with filler?</label>
+                        <select id="newType">
+                            <option value="all-meat">All meat</option>
+                            <option value="meat-and-filler">Meat and filler</option>
+                        </select><br /><br />
+                        <label for="newParagraphs">How many paragraphs?</label> <!--Box to input How many paragraphs-->
+                        <select id="newParagraphs">
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                        </select>
+                        <br /><br />
+                        <label for="newSentences">How many sentences?</label> <!--Box to input How many sentences-->
+                        <select id="newSentences">
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                            <option value=6>No Sentences</option>
+
+
+                        </select>
+                        <br /><br />
+                        <label for="newFormat">With what algorithm do you want to encrypt the data?</label>
+                        <select id="newFormat">
+                            <option value="1">Algorithm 1</option>
+                            <option value="2">Algorithm 2</option>
+                        </select><br /><br />
+                        <input type="button" value="Get the Meat" onclick="getMeat()"> <!--Add meat button-->
+                        <br /><br />
+                        <div class="myflexMeatColumn">
+                            <h2>Returned data in raw JSON</h2>
+                            <p id="myRawData">
+                            </p>
+                        </div>
+                        <div class="myflexMeatColumn">
+                            <h2>Returned data as formatted paragraphs</h2>
+                            <p id="myFormattedData">
+                            </p>
+                        </div>
+                        <div class="myflexMeatColumn">
+                            <h2>Returned data after encrypted</h2>
+                            <p id="myEncryptedData">
+                            </p>
+                        </div>
+                    </form> <!--End of Form-->
+                </div> <!--div class content end-->
+</body> <!--End of body-->
+
+</html> <!--End of html-->

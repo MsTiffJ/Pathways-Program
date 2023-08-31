@@ -1,0 +1,66 @@
+*   {
+    box-sizing: border-box;
+    }
+body
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: black; 
+    }
+form
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: black; 
+    }
+h1 {
+        color:rgb(63, 13, 241);
+        vertical-align: top;
+        text-align: center;
+    }
+h6{
+        color:rgb(221, 87, 9);
+        vertical-align: right;
+    }         
+.container 
+    {
+    position: 
+    max-width 800px; /* Maximum width */
+    margin: 0 auto;    /* Center it */
+    }
+.container img {vertical-align: middle;}
+
+.container .content 
+    {
+    position: absolute; /* Position the background text */
+    top: 0; /* At the bottom. Use top:0 to append it to the top */
+    
+    background: rgb(0,0,0); /* Fallback color */
+    background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+    color: #000000; /* grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */ 
+    }
+    /*Flex Display boxes */
+
+.myflexMeatRow
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/*Creating three equal entry boxes and a check box */
+
+.myflexMeatColumn
+{
+    flex: 25%;
+    padding: 30px;
+    border-spacing: 100px;
+}
+    @media screen and (max-width: 600px)
+    {
+        .myflexDisplayRow
+        {
+            flex-direction: column;
+        }
+    } 
