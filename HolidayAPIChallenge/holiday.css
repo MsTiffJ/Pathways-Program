@@ -1,0 +1,66 @@
+*   {
+    box-sizing: border-box;
+    }
+body
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(255, 255, 255); 
+    }
+form
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: rgb(153, 10, 248); 
+    }
+h1 {
+        color:rgb(63, 13, 241);
+        vertical-align: top;
+        text-align: center;
+    }
+h6{
+        color:rgba(243, 13, 13, 0.986);
+        vertical-align: right;
+    }         
+.container 
+    {
+    position: 
+    max-width 800px; /* Maximum width */
+    margin: 0 auto;    /* Center it */
+    }
+.container img {vertical-align: middle;}
+
+.container .content 
+    {
+    position: absolute; /* Position the background text */
+    top: 0; /* At the bottom. Use top:0 to append it to the top */
+    
+    background: rgb(0,0,0); /* Fallback color */
+    background: rgba(0, 0, 0, 0); /* white background with 0.5 opacity */
+    color: #f8f5f5fb; /* white text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */ 
+    }
+    /*Flex Display boxes */
+
+.myflexHolidayRow
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/*Creating three equal entry boxes and a check box */
+
+.myflexHolidayColumn
+{
+    flex: 33%;
+    padding: 30px;
+    border-spacing: 100px;
+}
+    @media screen and (max-width: 600px)
+    {
+        .myflexDisplayRow
+        {
+            flex-direction: column;
+        }
+    }   

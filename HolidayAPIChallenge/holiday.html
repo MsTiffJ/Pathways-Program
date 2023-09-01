@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Celebrate</title>
+
+    <link rel="stylesheet" href="holiday.css">
+    <script src="holiday.js"></script> <!--End of script-->
+</head> <!--End of head-->
+
+<body>
+    <div class="container">
+        <p> <img src="MyImages/celebration.jpg" alt="Celebrate" style="width:100%"></p>
+        <div class="content">
+            <h1>Let's Celebrate</h1> <!--Heading at top of the page-->
+
+            <div class="myflexHolidayRow"> <!--Row for task operations-->
+                <div class="myflexHolidayColumn"> <!--Column for task operations-->
+                    <h6>Holiday Date</h6> <!--Building the row and first column-->
+                    <table id="holidayDate"></table>
+                    <br /><br />
+                    <!--Dropdown options-->
+       
+            <h6>What year are we looking at?</h6>
+            <select id="newYear">
+                <option value="2023" selected>2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+            </select>
+        
+            <input type="button" value="Celebrate" onclick="getHolidays()"> <!--Add a task button-->
+                        <br /><br />
+                </div> <!--End of div class-->
+                <div class="myflexHolidayColumn"> <!--Column for Task Listings-->
+                    <h6>Holiday Name</h6> <!--Header for task listings-->
+                    <table id="holidayName"></table>
+
+                </div> <!--End of div class-->
+           
+            <div class="myflexHolidayColumn"> <!--Place holder column for correct spacing-->
+                <h6>Holiday Local Name</h6> <!--Building the row and first column-->
+                <table id="holidayLocalName"></table>
+            </div> <!--End of div class-->
+
+            <div class="myflexHolidayColumn"> <!--Place holder column for correct spacing-->
+
+            </div> <!--End of div class-->
+        </div> <!--div class content end-->
+    </div> <!--div container content end-->
+    </div> <!--div container content end-->
+    </div> <!--div container content end-->
+
+
+</body> <!--End of body-->
+
+</html> <!--End of html-->
